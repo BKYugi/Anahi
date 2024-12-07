@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905eaf5cdbe80f8418e5a5a2589bff05, type: 3}
+  m_Name: Broadsword
+  m_EditorClassIdentifier: 
+  itemName: Broadsword
+  itemIcon: {fileID: 21300000, guid: da9db5150be39fa40a8a4aa9a703d028, type: 3}
+  itemDescription: A Broadsword that really looks like a spear
+  itemID: 2
+  weaponModel: {fileID: 7668938592938130527, guid: a5d95b21f0034274f92ecd89b1fcbef4, type: 3}
+  strengthREQ: 10
+  dexREQ: 10
+  intREQ: 0
+  faithREQ: 0
+  physicalDamage: 110
+  magicDamage: 0
+  fireDamage: 0
+  lightningDamage: 0
+  holyDamage: 0
+  poiseDamage: 25
+  baseStaminaCost: 20

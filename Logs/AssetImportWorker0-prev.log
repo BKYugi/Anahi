@@ -1,0 +1,1453 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.23f1 (1c4764c07fb4) revision 1853284'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/mathe/OneDrive/Documentos/Anahi
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56983
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/mathe/OneDrive/Documentos/Anahi
+C:/Users/mathe/OneDrive/Documentos/Anahi
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7436]  Target information:
+
+Player connection [7436]  * "[IP] 26.209.135.162 [Port] 0 [Flags] 2 [Guid] 2441166120 [EditorId] 2441166120 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7436]  * "[IP] 192.168.15.9 [Port] 0 [Flags] 2 [Guid] 2441166120 [EditorId] 2441166120 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7436] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7436] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 178.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mathe/OneDrive/Documentos/Anahi/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003027 seconds.
+- Loaded All Assemblies, in  0.580 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 1047ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (187ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (470ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (416ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.838 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.565 seconds
+Domain Reload Profiling: 6395ms
+	BeginReloadAssembly (944ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (2779ms)
+		LoadAssemblies (2403ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (509ms)
+			TypeCache.Refresh (319ms)
+				TypeCache.ScanAssembly (294ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2566ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (1013ms)
+			ProcessInitializeOnLoadMethodAttributes (431ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 236 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7188 unused Assets / (5.7 MB). Loaded Objects now: 7995.
+Memory consumption went from 207.0 MB to 201.3 MB.
+Total: 17.992800 ms (FindLiveObjects: 1.459900 ms CreateObjectMapping: 0.954300 ms MarkObjects: 9.925500 ms  DeleteObjects: 5.650700 ms)
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.130 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.365 seconds
+Domain Reload Profiling: 2493ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (706ms)
+		LoadAssemblies (517ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (336ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (298ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1366ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (859ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (630ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7186 unused Assets / (5.5 MB). Loaded Objects now: 8010.
+Memory consumption went from 185.7 MB to 180.2 MB.
+Total: 11.504200 ms (FindLiveObjects: 0.774300 ms CreateObjectMapping: 0.735400 ms MarkObjects: 6.844300 ms  DeleteObjects: 3.148300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 173251.441709 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack
+  artifactKey: Guid(234ac30bbc39cdc46b9c73fa3338fa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack using Guid(234ac30bbc39cdc46b9c73fa3338fa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20feb8ac5025816141934d7d1d611354') in 0.0199766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.842741 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '384a3235a3e132c36c48fdc66cc77957') in 0.0475702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.911407 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d8d128d77d72b9496d1038cb56d1b76') in 0.0038756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.685195 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ab10dc93a9f956db74ec4d65a917b13') in 0.0065986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.606279 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43dd725b655a4a8798c372e7056f82e0') in 0.0083471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.149389 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9e3dda1ac264077690a91e5be31eeae') in 0.0064854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.032937 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30b588d4796f4164d6ca825ebc17225f') in 0.0055816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.750927 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e90dee6d1b9abac79f86a5c4c1e0b9b') in 0.0082463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.684623 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2b59d7d976fde7ba29fa0b3de351a54') in 0.0067343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.281166 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '597d1b8edde02e6f15d354af98c19507') in 0.0063157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.658970 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01173d2eda930ec35d7ad25c1f201d63') in 0.006146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.463531 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5677744babdd6b3fb8809f1cb5b0ba6b') in 0.0063255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.062881 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b3f456dbb4c38b35718796e007ba6d6') in 0.0051922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.541531 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f947e3c6c39146f69d7b1366860b6f9e') in 0.0079363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.606130 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24c3423c3305b3abeb570f6d46eadfb3') in 0.008128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.958569 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2043b1015f08bf262d2235e1ae139094') in 0.0096072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.656209 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d902e4546c0f40b9eeb19951b0d7429') in 0.0051261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.738827 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c11e77ac0a161a0ed5e0f384b868609') in 0.0058821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.982060 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a60d842b637ab3b45202c7d1ec1374e4') in 0.0065138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.590364 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cc70958f060464335e5be41f1372a3b') in 0.0060818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.294604 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a84871f8aeb03d91657c94543c11597d') in 0.0062486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.748096 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46e8258e153840822c70c02177da387f') in 0.0059463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.627150 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7277779cfde3c9ff1dd3bc7ddde0191f') in 0.0051805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.014779 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6942782e232d69a5a4a3cb035ea8acc1') in 0.0045827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.489586 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efef14a72f6a2e38b478265e9abda736') in 0.0049673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.392817 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b301bcd08d8e6f05b4eefcac9607163') in 0.0052218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.578517 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11b7d55a43a0b92e627cd44f72f6d561') in 0.0073533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.947134 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd951bf9bd25cd1d12d0e2b5cf365e0e') in 0.0053007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.009844 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f869bfd8e0134315530dd8a8731afe14') in 0.0061914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.332068 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1531ad0e3758d2a3121202c6bcecfac0') in 0.0059384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.649407 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd5a136b49b4ca25f56eaef10d3060a2') in 0.0048349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.402868 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bafca929af58f49614ae66b9145f3bb3') in 0.0057517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.615217 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd40142968dc391c3922ad04f9d3a3b98') in 0.0040811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.815905 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ef67998f7dba70a87eb411c31f35aa7') in 0.0048536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.414533 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50b5530180f222dca57556e5f3db60c5') in 0.0043907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.521967 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1b320a1a518b1d077c250855e5cbe6b') in 0.0052062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.363234 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '271d93fbee931b8bcba29e6eb4aea6fe') in 0.0316244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.833172 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81e6441c70dd091e7a4613d4c1847249') in 0.0199822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.382524 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c0897f2b36e0bbb827fc752d33c8d3d') in 0.0342199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.003005 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ef93475daa69a4902574cd0469d42ba') in 0.0273496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.364180 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77f365405a7338514506df9231e994ca') in 0.0174554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.383075 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/DissolverShader.shadergraph
+  artifactKey: Guid(e2e5b6315fe818547b4a32149dab48bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/DissolverShader.shadergraph using Guid(e2e5b6315fe818547b4a32149dab48bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f97116b415b0675ad1607046cdd7131') in 12.3422872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 539.674227 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf5782bc4077e81d8f55e29bcf34067d') in 0.015945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1009.060708 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/Spike01.blend
+  artifactKey: Guid(fb3090b55852a874eade101fc9aef3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/Spike01.blend using Guid(fb3090b55852a874eade101fc9aef3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f299c0dcb083625f01e3d8604af3fa1') in 0.2771617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 588.694654 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f53de156f5f79e5e6e1332a0e84d94e') in 1.1790941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.041676 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e44327f204d85cc32076f2578a3c320') in 1.1393381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.704804 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4197223098ca65cead4750c8ddffb760') in 0.5178479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.818979 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcce5f576a9a008c6a9916fd38e80fa4') in 0.4972737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.583906 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ceb711c611fa2409c0e68fcf44c1c84') in 1.2424892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.145319 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2115aa8181e72afa877fd7a7842374a1') in 0.5688297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.033738 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94aa9c316d5728b10cfbc59864f856fa') in 1.1222584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.839023 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea85a773ed98784d4326c0e174084888') in 1.2231563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.974425 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc026cda6238716ad0b1f833ed8cd15f') in 1.2943358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 409.468641 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '880141246ed3417f15496515e73393e6') in 1.3300807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.316998 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a1c1dc54c678fd553fc306a0b6b215b') in 1.1377191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.355863 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab2d8f72868a91a4541301e8e3e4c425') in 1.3443266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.397348 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02cf7695d0ac24a4c374de62efee3893') in 1.247118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.173347 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fda6adce1c8f11d06bfaaae50ca6dbef') in 1.3059441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.997583 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38f2a0cae20c016b6410e4e7ec7df390') in 1.2562273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.989824 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1675082cb5c99e57dbaf2fa3074405c8') in 1.7754038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 257.512777 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f48d8226a2c014faa169dbcef6b608c7') in 0.8165246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.446032 seconds.
+  path: Assets/PlaceHolders/VFX/Spike01.blend
+  artifactKey: Guid(06cb7b28390fa9f469b6a0790f9bc8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/Spike01.blend using Guid(06cb7b28390fa9f469b6a0790f9bc8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '792d90c1ac640fb85ffe36ad9fd4d8b2') in 0.0957347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.298552 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6802e5bdf95fabd5e6a6029c8e63c796') in 2.6997428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.850603 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '403a6d2cfcfa795c659616dad07765b1') in 2.9766076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.469108 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '449466c2f598bc0b75c6585986c21c35') in 2.5960087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.114235 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e5abb9fca1c398aa6d3b0d2d7093928') in 2.5895495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.950572 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bd274fa2754d28f953818fb2b6ae019') in 2.6760807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.879887 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecc5054b0124fc2ac5d24e1dec307378') in 2.9773571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 263.317806 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eff99ad512c85f27c77831d8c399483') in 1.4841271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.691437 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/DissolverShader.shadergraph
+  artifactKey: Guid(e2e5b6315fe818547b4a32149dab48bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/DissolverShader.shadergraph using Guid(e2e5b6315fe818547b4a32149dab48bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38bbd67e098f4a2b1766153205bb10b9') in 1.4457859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.551266 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a0e85798088611bb956fd2e03676577') in 1.3886677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.033111 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '083828d7667bbce1c992d4df2978789f') in 1.5362971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.712624 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f14a2372867114cb1c3313e66d47e65d') in 1.462682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.597308 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84fdfd3fb7232ae21d24bc03de0bcede') in 2.6212357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.128941 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3404faaf788393c1e21db2160504d766') in 2.7753485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.233056 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93dfe0897418c79da5194a7e3f18627c') in 1.975501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.995362 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c81c82f5783c6ad66d10aacacf0e56c5') in 1.9737624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.269765 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7b34f936ec4eb1fec45467a010082ed') in 1.3062759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.982712 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7e932367346b36ce89b1bd6840452ba') in 2.0848494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.653231 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89fa421385af16ac755ab8f8410089ae') in 1.9529047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.491043 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13f9185a0dfd88b1fee63b40298f9dba') in 2.1551754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.006775 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd82194d0877e5685d476685f13ca7cf1') in 2.1020407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.034176 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b6887dfcc71a1c73e43be2958d217d1') in 2.0324596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.920070 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12dfb5c7ea749551ef855cbefde34b1b') in 1.9956983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.630047 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61f5e76e9e72ca40988be88c6de03dd4') in 1.9937612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.858576 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7bea374deb589344674a380e860d70e') in 2.0021755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.166213 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5a7772fe482526676745edcaa92123c') in 1.9578187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fdae29fd4577c8bf6113dcbbbc948dc') in 1.8980334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.413916 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b818df6259b7c203ab661bfe1ee0dcfa') in 0.8942841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.353046 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff02b3937edbae41633b327718edd9a9') in 1.7742524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.774873 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82fcb11e09fa4ccdc8c84d562eca3b5f') in 2.0912127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.070159 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '437a8abc2c15280b5987e76e7781d851') in 1.7992822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.002627 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1956f274641a98ebfcaf78444f5d2cbe') in 0.8852411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.929596 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf6b68b21411131fe1cd995304107e38') in 0.8540004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.552547 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0725c259a51e4cf69f3984fdb1d54b6') in 1.7198085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.842553 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94a27f79a4e6f1dd68c17abc6f6ab5eb') in 0.9955721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.540040 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e638ceb422d18883df59180e60d5a46') in 1.8355343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.758016 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef7c58e97153e5c4898339ee84706d2b') in 2.1288917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.927535 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca1bb8131fd34af29f2475a38a68ca46') in 0.944586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.353691 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16f12bf6c5a680e78bc3bc9fe38df583') in 1.9570166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.082129 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f873e1484f54a6bd3e6db65c2699ead1') in 1.726603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125786 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17257db905178d8724b4e92dc3a6703e') in 1.7577804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.468412 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d4c81293ecbdcb5d686f5967d744b09') in 1.7424072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.525885 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '046b6f3170f9744e868c06a96556a896') in 1.5629304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.800156 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '281db7877e66ae9c7bc66a50da1a2881') in 1.6015555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.090758 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd92b20457f45d05c138a523894a91054') in 1.8027579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.902554 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9387b65d45896b8bee8d0e9c431dfd5e') in 1.7610244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.940040 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b269ae147d8b9a90619a8e81934bc570') in 0.7852319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.595129 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f034a717936236aa7e01d40cd814ac7') in 1.5463762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.438052 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2465aec8696efb7ad9aa3753a4e94e5') in 1.7184671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.347804 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f796301c2b26727a2547f52f8a1c942') in 0.801135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.362236 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e43a74a8c05f294e658963c169af48ab') in 1.6516607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.384334 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13df7587526946e9d2b016f7b1a4adb8') in 1.744112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.539978 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fd626a7702e8a380d8ce2f60da6bc7c') in 0.782049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.542900 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '598306d883c3b2aea1a5b8a154893497') in 1.6544361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.711309 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fc2da5040b5bb36bf7ba9adad50372b') in 1.5627969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.342130 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cd0fbc2810a62fdddd63ac24df93041') in 1.5720021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.490064 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3e53beb4bed206c55d60ad35c138031') in 1.5800542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.124671 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54e1948e1093927e38d55f4b72421364') in 1.5996014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.454024 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0dbd17c9cad59a0061cf33e978b5b8d') in 1.5386988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.597777 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b6b48748d5de8cb2c2124ec018f895a') in 0.8456718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.496824 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45beec5ae0ad40b3d8b08cf571db66bf') in 1.5626996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.020083 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15e7559a8dcba27754b26aad183a3e41') in 1.6877457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.460553 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9885afddf4b333e2ef87484861addb7c') in 1.7359287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.278539 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a03cc51a91212cd6a3be1de0d6a4d35e') in 1.2652748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.184731 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed7abd6312c96c7218b04b358f93741f') in 1.5885441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 399.446992 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59c0406f8f4a96cb73118db05ef2a891') in 1.4311262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.764054 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90394d8ac04c1c41d0615a26f5271c39') in 1.3475939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.311330 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3158b48f7df1ad64a537b3db5a8d0cf1') in 1.4092988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.669920 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f9ebc5ea3ad827e29c61beaf0e194b3') in 1.4637482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.635145 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd074d79bc020f001a3bfd00749f41e54') in 1.5322448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.414409 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e6be98aad26ee20772958d02283f1ee') in 0.7651032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.508208 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23132b6d6d2556302952a290feb1d440') in 0.7484046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.168387 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bf7b5d2971494ed8aef1fbbb035e459') in 0.7866144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.388042 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '048cd8c69f9706b7790ad1f215a86a95') in 0.8445842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.254373 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b76245af04507e72cd3422b64cd0beef') in 1.7601439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.330256 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8b6eccae08ce25b891f0b7eee5d89fa') in 1.6480263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.927710 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63f74ee61b2ede9620e2fa5bdf67c304') in 1.0872908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.956113 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc6d692a47cce067c8356715f6a46cd3') in 1.6386192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.645799 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd952746498a9fcc94d5cddb14dca36a1') in 1.7051729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.152378 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f817a0b31e8e114be0f09d2e8d8eafb5') in 1.2174359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.517993 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66ca7112dc2f480137b69cdadc006a8f') in 1.5256049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.912291 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cd6525ede2d029c02cf2d99f40dee60') in 1.0271401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.746941 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b1f9e3988af31f565d715adc41aa416') in 2.1132709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.829614 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '950e9fac3d666704a0c6640c061fab30') in 2.064191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.519634 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92993e4285995a67af117a74d67fe9b4') in 1.2760208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.267527 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17e8317e5bb4721bddf69032aaa53073') in 2.1688033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.861098 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cdcf1500bf45f73b8235580ed984bea') in 2.7336799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.715609 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6de05a0b968b79f0b156fb340eef092a') in 1.3418909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.066797 seconds.
+  path: Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx
+  artifactKey: Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaceHolders/VFX/StoneAttack/StoneLineAttack.vfx using Guid(0139f00138edfce4187b1d411f87db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ac3a217b38732596b815e593de11041') in 0.7743956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+

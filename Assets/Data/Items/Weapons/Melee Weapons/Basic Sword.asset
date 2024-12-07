@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905eaf5cdbe80f8418e5a5a2589bff05, type: 3}
+  m_Name: Basic Sword
+  m_EditorClassIdentifier: 
+  itemName: Basic Sword
+  itemIcon: {fileID: 21300000, guid: cd77224ae983a6c43a32dc25b3284fad, type: 3}
+  itemDescription: Basic Sord
+  itemID: 3
+  weaponModel: {fileID: 5878390985650751754, guid: 5b06e2a00601e8c4c8f30c3d91ad502b, type: 3}
+  strengthREQ: 0
+  dexREQ: 0
+  intREQ: 0
+  faithREQ: 0
+  physicalDamage: 50
+  magicDamage: 0
+  fireDamage: 0
+  lightningDamage: 0
+  holyDamage: 0
+  poiseDamage: 10
+  light_Attack_01_Modifier: 1
+  light_Attack_02_Modifier: 1.2
+  heavy_Attack_01_Modifier: 1.5
+  heavy_Attack_02_Modifier: 1.4
+  charged_Attack_01_Modifier: 2
+  charged_Attack_02_Modifier: 2.5
+  baseStaminaCost: 20
+  lightAttackStaminaCostMultiplier: 1
+  oh_RB_Action: {fileID: 11400000, guid: d1f521a054c9a284f98db75f7f2d6ce2, type: 2}
+  oh_RT_Action: {fileID: 11400000, guid: 7edaafc8a3a617042bd23e3e89c3d312, type: 2}
